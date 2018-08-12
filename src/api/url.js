@@ -24,11 +24,11 @@
     movie:{
         getMovieStory: '/movie/:id/story/1/0' // 根据id获取影视详情信息
     },
+    // 一个评论接口
     comments:{
-        getComments: '/comment/praiseandtime/:type/:id/0', // 获取类型为type 的 id 评论信息
+        getComments: '/comment/praiseandtime/:type/:id/0', // 获取类型为type 的 id 28条评论信息
         /**
-         * 获取剩余评论
-         * 单个获取只会获取28条评论
+         * 获取剩余评论 每次获取20条
          * 
          * example:
          *       id: 图文id
