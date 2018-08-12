@@ -1,0 +1,55 @@
+@import '../mixin.less';
+@import '../common.less';
+.banner {
+    width: 100%;
+    margin: 20px 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .border(); // style default
+    p {
+        color: #727272;
+        margin: 0 0 18px 0;
+        text-align: center;
+        &:last-child {
+            margin-bottom: 22px;
+        }
+    }
+    .bn-header {
+        .common-header()
+    }
+    .bn-image {
+        width: 100%;
+        padding: 1px;
+        margin-bottom: 22px;
+        border-radius: 1px;
+    }
+    .bn-tips {
+        font-size: 14px;
+    }
+    .bn-forward {
+        margin: 10px 0;
+        padding: 0 4px;
+        color: #4a4a4a;
+        font-size: 15px;
+    } // style - graphic
+    .bn-author {
+        .common-clearfix();
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 0 10px;
+        color: #4a4a4a;
+    }
+    .bn-day {
+        font-family: SimSun;
+        color: black;
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+    .bn-month {
+        color: black;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+}

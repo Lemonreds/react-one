@@ -1,0 +1,61 @@
+input,
+button,
+select,
+textarea {
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 2px;
+    border: 0;
+    background: #fff;
+}
+
+/**
+* 通用按钮组件
+*/
+
+.common-button {
+    padding: 8px 16px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    &:hover {
+        background: #302f2f;
+        color: #fff;
+    }
+    transition: all .25s ease-in-out;
+}
+
+/**
+* 通用水平居中组件
+*/
+
+.common-center {
+    display: flex;
+    align-items: center;
+}
+.common-line {
+    width: 30%;
+    height: 1px;
+    margin: 12px auto;
+    background-color: #eee;
+}
+/**
+* 通用浮动相关
+*/
+.common-clearfix {
+    display: block;
+    zoom: 1;
+    &:after {
+        content: " ";
+        display: block;
+        font-size: 0;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+}
+.common-float-left {
+    float: left;
+}
+.common-float-right {
+    float: right;
+}

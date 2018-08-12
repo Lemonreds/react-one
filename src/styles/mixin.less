@@ -1,0 +1,41 @@
+.border {
+    border: 1px solid #eee;
+    border-radius: 2px;
+}
+.border-top {
+    border-top: 1px solid #eee;
+}
+.border-bottom {
+    border-bottom: 1px solid #eee;
+    border-radius: 2px;
+}
+
+.common-header {
+    width: 100%;
+    min-height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-align: left;
+    line-height: 48px;
+    color: #7f7f7f;
+}
+
+.inner-border {
+    position: relative;
+    &::after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0;
+        width: 56px;
+        height: 2px;
+        background-color: #000;
+    }
+}
+
+.background-base{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
