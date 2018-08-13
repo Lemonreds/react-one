@@ -10,6 +10,7 @@ import Home from '@/pages/home/index'
 import Graphic from '@/pages/graphic/index'
 import Reading from '@/pages/reading/index'
 import Movie from '@/pages/movie/index'
+import Music from '@/pages/music/index'
 import About from '@/pages/about/index'
 import NoMatch from '@/pages/nomatch/index'
 // Components
@@ -35,6 +36,8 @@ class App extends Component {
                   <Route  path='/graphic' component={Graphic} />
                   {/* 电影 */}
                   <Route path='/movie/:id' component={Movie} />
+                  {/* 音乐 */}
+                  <Route path='/music/:id' component={Music} />
                   {/* 关于 */}
                   <Route path='/about' component={About} />
                   {/* 未匹配到的路由 */}

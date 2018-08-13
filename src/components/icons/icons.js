@@ -1,7 +1,5 @@
 // react
 import React from 'react'
-// icontainer
-import container from './base'
 
 /**
  * 生成一个 i 组件
@@ -12,8 +10,8 @@ function generate(className){
         render(){
             return (
             <i 
+            {...this.props}
             className={`iconfont ${className}`} 
-            onClick={this.props.onClick}
             style={{cursor:'pointer'}}/>)
         }
     }
@@ -21,17 +19,22 @@ function generate(className){
 
 // icons
 // Home
-const Home = container(generate('icon-home')) 
+const Home = generate('icon-home')
 // Menu
-const Menu = container(generate('icon-menu'))
+const Menu = generate('icon-menu')
 // Close
-const Close = container(generate('icon-close'))
+const Close = generate('icon-close')
 // Search
-const Search = container(generate('icon-search'))
+const Search = generate('icon-search')
+// Music
+const Play = generate('icon-play')
+const Pause = generate('icon-pause')
 
 export {
     Home,
     Menu,
     Close,
-    Search
+    Search,
+    Play,
+    Pause
 }

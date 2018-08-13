@@ -43,14 +43,18 @@ class Header extends React.Component {
         return (
         <header className="cheader">
             <div className="menu">
-                <Menu onClick={this.handlerMenu.bind(this)}/>
+                <div className="icon-contianer">
+                    <Menu onClick={this.handlerMenu.bind(this)}/>
+                </div>
             </div>
             <div className="time">
                 <span className="focus">{ this.date.day }</span>
                 <span className="nonFocus">{ this.date.month + this.date.year }</span>
             </div>
             <div className="search" onClick={ this.handlerSearch.bind(this)}>
-                <Search />
+                <div className="icon-contianer">
+                    <Search />
+                </div>
             </div>
             {/*  侧边栏 */}
             <SideBar/>

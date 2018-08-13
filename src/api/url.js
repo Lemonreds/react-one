@@ -24,6 +24,10 @@
     movie:{
         getMovieStory: '/movie/:id/story/1/0' // 根据id获取影视详情信息
     },
+    // 一个音乐接口
+    music:{
+        getMusic: 'music/detail/:id' // 根据id获取音乐详情
+    },
     // 一个评论接口
     comments:{
         getComments: '/comment/praiseandtime/:type/:id/0', // 获取类型为type 的 id 28条评论信息

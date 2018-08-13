@@ -43,7 +43,9 @@ class Menu extends React.Component {
                     ))
                 }
             </ul>
-            <Close onClick={this.props.toggle}/>
+            <div className="icon-container">
+                <Close onClick={this.props.toggle}/>
+            </div>
         </div>)
     }
 }

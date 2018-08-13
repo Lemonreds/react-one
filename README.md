@@ -10,7 +10,7 @@
 
 [react-router: 路由管理](https://reacttraining.com/react-router/web/guides/philosophy)
 
-[create-react-app: react脚手架](https://github.com/facebook/create-react-app)
+[create-react-app: react 脚手架](https://github.com/facebook/create-react-app)
 
 [axios: http请求库](https://github.com/axios/axios)
 
@@ -45,3 +45,7 @@ start at http://localhost:3000/
 ```
 $ npm run build
 ```
+
+## 更新日志
+
+- 2018-08-13 音乐播放( 部分音乐源错误 )
