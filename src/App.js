@@ -37,7 +37,7 @@ class App extends Component {
                   {/* 电影 */}
                   <Route path='/movie/:id' component={Movie} />
                   {/* 音乐 */}
-                  <Route path='/music/:id' component={Music} />
+                  <Route path='/music' component={Music} />
                   {/* 关于 */}
                   <Route path='/about' component={About} />
                   {/* 未匹配到的路由 */}

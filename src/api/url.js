@@ -26,7 +26,8 @@
     },
     // 一个音乐接口
     music:{
-        getMusic: 'music/detail/:id' // 根据id获取音乐详情
+        getMusicList: '/channel/music/more/0', // 获取音乐频道最新的10条图文
+        getMusic: '/music/detail/:id' // 根据id获取音乐详情
     },
     // 一个评论接口
     comments:{

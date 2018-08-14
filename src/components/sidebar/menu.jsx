@@ -17,6 +17,9 @@ const MENU_LIST = [{
     label: '阅读',
     route: '/reading' 
 },{
+    label: '音乐',
+    route: '/music'
+},{
     label: '关于',
     route: '/about'
 }]

@@ -16,7 +16,8 @@
 
 ## 预览
 
-![ONE IS ALL.](https://github.com/Lemonreds/react-one/blob/master/src/react-one.png)
+![ONE IS ALL.](https://github.com/Lemonreds/react-one/blob/master/preview/home.png)
+
 
 ## 快速运行
 
@@ -48,4 +49,8 @@ $ npm run build
 
 ## 更新日志
 
-- 2018-08-13 音乐播放( 部分音乐源错误 )
+- 2018-08-14 新增音乐HOME页 (部分音乐源可能错误)
+
+## 注意
+
+部分接口获取到的数据可能会过时,官方并没有开放接口文档,所以仅做学习.

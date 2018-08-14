@@ -47,7 +47,7 @@ class Music extends React.Component {
                         singer: data.author.user_name,
                         album: data.album,
                         cover: data.cover,
-                        // TODO:
+                        // TODO:部分音乐源会错误...
                         url: data.music_id
                     },
                     article:{
